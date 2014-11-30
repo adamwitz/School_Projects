@@ -1,0 +1,43 @@
+
+    /*
+
+    $(".upper-row").empty();
+
+    $(".upper-row").append('<div class="account-info-box"></div>');
+
+    $(".account-info-box").append(
+        '<div class="user-info"></div>',
+        '<div class="password-info"></div>',
+        '<div class="email"></div>'
+        );
+
+    //create name row
+    $(".user-info").append(
+        '<div class="acctName">AccountName</div>',
+        '<div class="desc"></div>'
+        );
+
+    //place value into username input
+    $(".desc").html(username);
+
+    //create password row
+    $(".password-info").append(
+        '<div class="current-password">Password</div>',
+        '<input class="current-password-input" type="text" />',
+        '<input class="update-password-button" type="button" value="Update" />'
+    );
+
+    //place value into password input
+    $(".current-password-input").val(password);
+
+    //create email row
+    $(".email").append(
+        '<div class="email-address">Email Address</div>',
+        '<input class="email-input" type="text" />',
+        '<input class="update-email-button" type="button" value="Update" />'
+    );
+
+    //place value into email input
+    $(".email-input").val(email);
+
+    */

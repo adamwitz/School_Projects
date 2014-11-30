@@ -1,0 +1,44 @@
+/*
+Home.AddInfoToScreen = function (elementTitle, elementValue) {
+
+    $(".container").height( $(".container").height() + 50 ); // increase height of container
+    $(".account-info-box").height($(".account-info-box").height() + 50);
+
+    $(".account-info-box").append("<div class=" + elementTitle + "-row></div>");
+
+    $("." + elementTitle + "-row").append(
+        '<div class="new-element-title"></div>',
+        '<input class="new-element-input" type="text" />',
+        '<input class="update-new-element-button" type="button" value="Update" />'
+    );
+
+    $("." + elementTitle + "-row").css("margin", "20px");
+
+    $(".new-element-input").css({
+        "margin-left": "125px",
+        "margin-right": "20px"
+    });
+
+    var newTitle = "." + elementTitle + "-row" + " .new-element-title";
+    var newInput = "." + elementTitle + "-row" + " .new-element-input";
+
+    $(newTitle).html(elementTitle);
+    $(newInput).val(elementValue);
+
+
+    $(".update-button").on({
+        mouseover: function () { $(this).css("background-color", "yellow") },
+        mouseout: function () { $(this).css("background-color", "") },
+        click: function () {
+            var parent = $(this).parent().attr("class");
+
+            var username = accountInfo.username;
+            var eleName = $("." + parent + " > .property-desc").text();
+            var eleVal = $("." + parent + " > .property-input").val();
+
+            Home.UpdateInfoClick(username, eleName, eleVal);
+        }
+    });
+
+}
+*/

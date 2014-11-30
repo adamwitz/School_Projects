@@ -1,0 +1,108 @@
+﻿@media screen and (max-width: 320px) 
+{
+
+    body 
+    {   
+        width: 300px;
+    }
+
+    .home .header, .subhead 
+    {
+        text-align: center;
+    }
+
+    .home .container 
+    {
+        width: 285px;
+        margin-left: 0px;
+        height: 545px;
+    }
+
+    .home .log-button
+    {
+        padding: 0px;
+        width: 200px;
+        height: 60px;
+        margin-right: 100px;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .home .bottom-row 
+    {
+        margin-left: 40px;
+    }
+
+    .home .break-bar 
+    {
+        margin: 5px;
+    }
+
+    .home .create-account-button 
+    {
+        margin-top: 10px;
+        padding: 0px;
+        width: 200px;
+        height: 60px;
+        margin-right: 20px;
+        margin-left: -10px;
+        text-align: center;
+    }
+
+    .home .account-info-box 
+    {
+        
+        width: 260px;
+        margin-left: -12px;
+        height: 400px;
+
+    }
+
+    .home .property-desc 
+    {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .home .update-button, .property-input 
+    {
+        margin-top: 0px;
+        padding: 0px;
+        width: 200px;
+        height: 30px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .home .update-button
+    {
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+
+    .home .bottom-box 
+    {
+        width: 200px;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .home .add-button, .element-name-input, .element-value-input 
+    {
+        margin: 0px;
+        padding: 0px;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+
+}

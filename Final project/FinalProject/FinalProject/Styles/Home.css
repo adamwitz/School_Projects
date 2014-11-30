@@ -1,0 +1,164 @@
+﻿body 
+{   
+    font-family: Calibri;
+    width: 520px;
+}
+
+.home .header 
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Adobe Hebrew'
+}
+
+.home .subhead 
+{
+    font-size: 15px;
+    padding: 20px;
+    font-style: italic;
+}
+.home .footer 
+{
+    font-size: 15px;
+    padding:15px;
+}
+.home .container 
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 520px;
+    height: 450px;
+}
+
+.home .upper-row 
+{
+    padding: 20px;
+}
+
+.home .left-side 
+{
+    width: 200px;
+    display: inline-block;
+
+}
+
+.home .bottom-left-side 
+{
+    display: inline-block;
+    width: 200px;
+    margin:20px;
+
+}
+
+.home .bottom-right-side {
+    display:inline-block;
+}
+
+.home .right-side 
+{
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.home .username-top, .username-bottom, .password-top, .password-bottom
+{
+    margin: 2px;
+}
+
+
+.home .break-bar 
+{
+    border: 1px solid blue;
+    margin: 20px;
+    
+}
+
+.home .log-button, .create-account-button, .update-email-button, .update-password-button, 
+.add-button, .update-new-element-button, .update-button
+{
+    background-color: #33FFFF;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.home .log-button, .create-account-button 
+{
+    width: 100px;
+}
+
+.home .log-button 
+{
+    margin-top: 20px;
+}
+
+.home .create-account-button 
+{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.home .error-message 
+{
+    color: red;
+    font-family: 'Adobe Arabic';
+}
+
+
+
+
+
+
+
+.home .account-info-box 
+{
+    border: 1px solid black;
+    width: 480px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.home .new-element-title, .new-element-input, .update-new-element-button, .update-button, 
+    .property-desc, .property-input
+{
+    display: inline-block;
+}
+
+.home .property-desc {
+    width: 65px;
+    margin-left:50px;
+}
+.home .property-input
+{
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.home .bottom-box 
+{
+    margin: 50px 0px 0px 100px;
+}
+.home .element-name, .element-value, .element-name-input, .element-value-input 
+{
+    display: inline-block;
+}
+
+.home .add-button 
+{
+    margin-left: 225px;
+}
+
+.home .element-value-row 
+{
+    margin: 10px 0px;
+}
+
+.home .element-name, .element-value 
+{
+    margin-right: 20px;
+}

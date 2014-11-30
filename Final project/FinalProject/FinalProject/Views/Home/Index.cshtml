@@ -1,0 +1,88 @@
+﻿@model FinalProject.Models.HomeViewModel
+
+<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <link href="~/Styles/fp_mobile.css" rel="stylesheet" />
+        <title>Final Project</title>
+    </head>
+
+    <body>
+        <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui.min.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        
+        <div class="home">
+
+            <div class="header">
+                Welcome to Cuyahoga Community College Student Services Online
+            </div>
+
+            <div class="subhead">
+                Cuyahoga Community College recognizes students' rights to access personal and academic records in accordance with the Family Educational Rights and Privacy 
+                Act of 1974 (FERPA) as amended by Public Law 93-568.
+            </div>
+            <div class="container">
+                
+
+                <div class="upper-row">
+                    <div class="left-side">
+                        Already have an account with us? 
+                        Returning users may log in by entering their site username and password.
+                    </div>
+                    <div class="right-side">
+                        <div class="username-top">
+                            <div class="name">Username</div>
+                            <input class="username-input" type="text" />
+                        </div>
+                        <div class="password-top">
+                            <div class="name">Password</div>
+                            <input class="password-input" type="password" />
+                        </div>
+                        <input class="log-button" type="button" value="Log In" />
+                    </div>
+                </div>
+                
+                <div class="break-bar"></div>
+
+                <div class="bottom-row">
+
+                    <div class="bottom-left-side">
+                        New users, please create a new account by providing us with some basic information.
+                    </div>
+                    <div class="bottom-right-side">
+                        <div class="username-bottom">
+                            <div class="name">Username</div>
+                            <input class="bottom-username-input" type="text" />
+                        </div>
+                        <div class="password-bottom">
+                            <div class="name">Password</div>
+                            <input class="bottom-password-input" type="text" />
+                        </div>
+                        <div class="email-one">
+                            <div class="name">E-Mail Address</div>
+                            <input class="email-input-one" type="text" />
+                        </div>
+                        <div class="email-two">
+                            <div class="name">Repeat E-Mail Address</div>
+                            <input class="email-input-two" type="text" />
+                        </div>
+                        <input class="create-account-button" type="button" value="Create Account" />
+                    </div>
+
+
+                </div>
+           
+            </div>
+
+            <div class="footer">
+                    Cuyahoga Community College<br />
+                    700 Carnegie Avenue, Cleveland, Ohio 44115
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
